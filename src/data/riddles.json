@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "question": "What has keys but no locks?",
+    "answer": "A piano",
+    "hint": "It makes music",
+    "category": "Classic",
+    "difficulty": "easy",
+    "wrongAnswers": ["A map", "A door"]
+  },
+  {
+    "id": 2,
+    "question": "What has hands but can't clap?",
+    "answer": "A clock",
+    "hint": "It tells you something important every day",
+    "category": "Classic",
+    "difficulty": "easy",
+    "wrongAnswers": ["A statue", "A puppet"]
+  },
+  {
+    "id": 3,
+    "question": "What has a head and a tail but no body?",
+    "answer": "A coin",
+    "hint": "You might flip it to make a decision",
+    "category": "Classic",
+    "difficulty": "easy",
+    "wrongAnswers": ["A snake", "A pin"]
+  },
+  {
+    "id": 4,
+    "question": "What gets wetter the more it dries?",
+    "answer": "A towel",
+    "hint": "You use it after a shower",
+    "category": "Classic",
+    "difficulty": "easy",
+    "wrongAnswers": ["A sponge", "Rain"]
+  },
+  {
+    "id": 5,
+    "question": "What can you catch but not throw?",
+    "answer": "A cold",
+    "hint": "It's not a ball",
+    "category": "Wordplay",
+    "difficulty": "easy",
+    "wrongAnswers": ["A butterfly", "A shadow"]
+  },
+  {
+    "id": 6,
+    "question": "What has a neck but no head?",
+    "answer": "A bottle",
+    "hint": "You drink from it",
+    "category": "Classic",
+    "difficulty": "easy",
+    "wrongAnswers": ["A guitar", "A shirt"]
+  },
+  {
+    "id": 7,
+    "question": "What has teeth but cannot bite?",
+    "answer": "A comb",
+    "hint": "You use it on your hair",
+    "category": "Classic",
+    "difficulty": "easy",
+    "wrongAnswers": ["A saw", "A zipper"]
+  },
+  {
+    "id": 8,
+    "question": "What runs but never walks?",
+    "answer": "Water",
+    "hint": "You can find it in a river",
+    "category": "Classic",
+    "difficulty": "easy",
+    "wrongAnswers": ["A car", "Time"]
+  },
+  {
+    "id": 9,
+    "question": "What has an eye but cannot see?",
+    "answer": "A needle",
+    "hint": "It's used with thread",
+    "category": "Classic",
+    "difficulty": "easy",
+    "wrongAnswers": ["A storm", "A potato"]
+  },
+  {
+    "id": 10,
+    "question": "What can travel around the world while staying in a corner?",
+    "answer": "A stamp",
+    "hint": "It goes on an envelope",
+    "category": "Classic",
+    "difficulty": "easy",
+    "wrongAnswers": ["A spider", "Wi-Fi"]
+  },
+  {
+    "id": 11,
+    "question": "What has legs but doesn't walk?",
+    "answer": "A table",
+    "hint": "You eat dinner on it",
+    "category": "Classic",
+    "difficulty": "easy",
+    "wrongAnswers": ["A chair", "A bed"]
+  },
+  {
+    "id": 12,
+    "question": "What can you break without touching it?",
+    "answer": "A promise",
+    "hint": "It's not a physical object",
+    "category": "Wordplay",
+    "difficulty": "easy",
+    "wrongAnswers": ["Silence", "A heart"]
+  },
+  {
+    "id": 13,
+    "question": "What goes up but never comes down?",
+    "answer": "Your age",
+    "hint": "Everyone has one that increases",
+    "category": "Wordplay",
+    "difficulty": "easy",
+    "wrongAnswers": ["A balloon", "Smoke"]
+  },
+  {
+    "id": 14,
+    "question": "What is full of holes but still holds water?",
+    "answer": "A sponge",
+    "hint": "You use it to clean dishes",
+    "category": "Classic",
+    "difficulty": "easy",
+    "wrongAnswers": ["A net", "A basket"]
+  },
+  {
+    "id": 15,
+    "question": "What has words but never speaks?",
+    "answer": "A book",
+    "hint": "You can find it in a library",
+    "category": "Classic",
+    "difficulty": "easy",
+    "wrongAnswers": ["A sign", "A letter"]
+  },
+  {
+    "id": 16,
+    "question": "What has a thumb and four fingers but is not alive?",
+    "answer": "A glove",
+    "hint": "You wear it when it's cold",
+    "category": "Classic",
+    "difficulty": "easy",
+    "wrongAnswers": ["A hand puppet", "A mitten"]
+  },
+  {
+    "id": 17,
+    "question": "What comes once in a minute, twice in a moment, but never in a thousand years?",
+    "answer": "The letter M",
+    "hint": "Think about spelling",
+    "category": "Wordplay",
+    "difficulty": "easy",
+    "wrongAnswers": ["A heartbeat", "A blink"]
+  },
+  {
+    "id": 18,
+    "question": "What has cities but no houses, forests but no trees, and water but no fish?",
+    "answer": "A map",
+    "hint": "You use it for navigation",
+    "category": "Classic",
+    "difficulty": "easy",
+    "wrongAnswers": ["A globe", "A painting"]
+  },
+  {
+    "id": 19,
+    "question": "What can fill a room but takes up no space?",
+    "answer": "Light",
+    "hint": "Flip a switch to see it",
+    "category": "Classic",
+    "difficulty": "easy",
+    "wrongAnswers": ["Air", "Sound"]
+  },
+  {
+    "id": 20,
+    "question": "What is always in front of you but can't be seen?",
+    "answer": "The future",
+    "hint": "It hasn't happened yet",
+    "category": "Wordplay",
+    "difficulty": "easy",
+    "wrongAnswers": ["Your nose", "Air"]
+  },
+  {
+    "id": 21,
+    "question": "I speak without a mouth and hear without ears. I have no body but I come alive with the wind. What am I?",
+    "answer": "An echo",
+    "hint": "Try shouting in a canyon",
+    "category": "Classic",
+    "difficulty": "medium",
+    "wrongAnswers": ["A ghost", "A whistle"]
+  },
+  {
+    "id": 22,
+    "question": "The more you take, the more you leave behind. What am I?",
+    "answer": "Footsteps",
+    "hint": "Think about walking",
+    "category": "Classic",
+    "difficulty": "medium",
+    "wrongAnswers": ["Memories", "Breadcrumbs"]
+  },
+  {
+    "id": 23,
+    "question": "I have branches but no fruit, trunk, or leaves. What am I?",
+    "answer": "A bank",
+    "hint": "It's related to money",
+    "category": "Wordplay",
+    "difficulty": "medium",
+    "wrongAnswers": ["A river", "A family tree"]
+  },
+  {
+    "id": 24,
+    "question": "What can you hold in your right hand but never in your left hand?",
+    "answer": "Your left elbow",
+    "hint": "It's part of your body",
+    "category": "Tricky",
+    "difficulty": "medium",
+    "wrongAnswers": ["Your right hand", "Your breath"]
+  },
+  {
+    "id": 25,
+    "question": "What is seen in the middle of March and April that can't be seen at the beginning or end of either month?",
+    "answer": "The letter R",
+    "hint": "Look at the spelling of the months",
+    "category": "Wordplay",
+    "difficulty": "medium",
+    "wrongAnswers": ["Spring", "A rainbow"]
+  },
+  {
+    "id": 26,
+    "question": "What disappears as soon as you say its name?",
+    "answer": "Silence",
+    "hint": "Shhh...",
+    "category": "Wordplay",
+    "difficulty": "medium",
+    "wrongAnswers": ["A secret", "Darkness"]
+  },
+  {
+    "id": 27,
+    "question": "I am not alive but I grow; I don't have lungs but I need air; I don't have a mouth but water kills me. What am I?",
+    "answer": "Fire",
+    "hint": "It's hot and bright",
+    "category": "Classic",
+    "difficulty": "medium",
+    "wrongAnswers": ["A candle", "A plant"]
+  },
+  {
+    "id": 28,
+    "question": "What has one head, one foot, and four legs?",
+    "answer": "A bed",
+    "hint": "You sleep on it",
+    "category": "Classic",
+    "difficulty": "medium",
+    "wrongAnswers": ["A table", "A horse"]
+  },
+  {
+    "id": 29,
+    "question": "What is lighter than a feather but the strongest person can't hold it for more than five minutes?",
+    "answer": "Their breath",
+    "hint": "Try holding it right now",
+    "category": "Tricky",
+    "difficulty": "medium",
+    "wrongAnswers": ["A thought", "A bubble"]
+  },
+  {
+    "id": 30,
+    "question": "I follow you all the time and copy your every move, but you can't touch me or catch me. What am I?",
+    "answer": "Your shadow",
+    "hint": "You need light to see me",
+    "category": "Classic",
+    "difficulty": "medium",
+    "wrongAnswers": ["Your reflection", "Your conscience"]
+  },
+  {
+    "id": 31,
+    "question": "What goes through cities and fields but never moves?",
+    "answer": "A road",
+    "hint": "Cars drive on it",
+    "category": "Classic",
+    "difficulty": "medium",
+    "wrongAnswers": ["A river", "A fence"]
+  },
+  {
+    "id": 32,
+    "question": "What building has the most stories?",
+    "answer": "A library",
+    "hint": "Think about a different meaning of 'stories'",
+    "category": "Wordplay",
+    "difficulty": "medium",
+    "wrongAnswers": ["A skyscraper", "A school"]
+  },
+  {
+    "id": 33,
+    "question": "I have a face but no eyes, hands but no arms. What am I?",
+    "answer": "A clock",
+    "hint": "Tick tock",
+    "category": "Classic",
+    "difficulty": "medium",
+    "wrongAnswers": ["A mask", "A doll"]
+  },
+  {
+    "id": 34,
+    "question": "What invention lets you look right through a wall?",
+    "answer": "A window",
+    "hint": "Every house has them",
+    "category": "Tricky",
+    "difficulty": "medium",
+    "wrongAnswers": ["X-ray glasses", "A camera"]
+  },
+  {
+    "id": 35,
+    "question": "What can be cracked, made, told, and played?",
+    "answer": "A joke",
+    "hint": "Ha ha ha!",
+    "category": "Wordplay",
+    "difficulty": "medium",
+    "wrongAnswers": ["A code", "A record"]
+  },
+  {
+    "id": 36,
+    "question": "What has 13 hearts but no other organs?",
+    "answer": "A deck of cards",
+    "hint": "Think about suits",
+    "category": "Tricky",
+    "difficulty": "medium",
+    "wrongAnswers": ["A doctor's office", "A Valentine's box"]
+  },
+  {
+    "id": 37,
+    "question": "What starts with T, ends with T, and has T in it?",
+    "answer": "A teapot",
+    "hint": "It's used to brew a warm drink",
+    "category": "Wordplay",
+    "difficulty": "medium",
+    "wrongAnswers": ["A tent", "A toast"]
+  },
+  {
+    "id": 38,
+    "question": "If you have me, you want to share me. If you share me, you haven't got me. What am I?",
+    "answer": "A secret",
+    "hint": "Don't tell anyone!",
+    "category": "Wordplay",
+    "difficulty": "medium",
+    "wrongAnswers": ["A gift", "A wish"]
+  },
+  {
+    "id": 39,
+    "question": "What tastes better than it smells?",
+    "answer": "Your tongue",
+    "hint": "Think about which body part does the tasting",
+    "category": "Tricky",
+    "difficulty": "medium",
+    "wrongAnswers": ["Cheese", "Garlic"]
+  },
+  {
+    "id": 40,
+    "question": "What kind of coat is best put on wet?",
+    "answer": "A coat of paint",
+    "hint": "Think about decorating",
+    "category": "Wordplay",
+    "difficulty": "medium",
+    "wrongAnswers": ["A raincoat", "A fur coat"]
+  },
+  {
+    "id": 41,
+    "question": "I am taken from a mine and shut up in a wooden case, from which I am never released, and yet I am used by almost every person. What am I?",
+    "answer": "Pencil lead",
+    "hint": "You write with it",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["Coal", "Diamond"]
+  },
+  {
+    "id": 42,
+    "question": "What word in the English language does the following: the first two letters signify a male, the first three letters signify a female, the first four letters signify a great, while the entire word signifies a great woman?",
+    "answer": "Heroine",
+    "hint": "He, Her, Hero...",
+    "category": "Wordplay",
+    "difficulty": "hard",
+    "wrongAnswers": ["Heritage", "Herself"]
+  },
+  {
+    "id": 43,
+    "question": "I have cities but no people, forests but no animals, and oceans but no water. What am I?",
+    "answer": "A globe",
+    "hint": "You might find me on a desk or in a classroom",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["A painting", "A dream"]
+  },
+  {
+    "id": 44,
+    "question": "I fly without wings. I cry without eyes. Wherever I go, darkness follows me. What am I?",
+    "answer": "A cloud",
+    "hint": "Look up at the sky on a stormy day",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["The wind", "A bird"]
+  },
+  {
+    "id": 45,
+    "question": "What is so fragile that saying its name breaks it?",
+    "answer": "Silence",
+    "hint": "It's the absence of something",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["A whisper", "Peace"]
+  },
+  {
+    "id": 46,
+    "question": "I can be long or short, grown or bought, painted or left bare. I sit on the ends of your fingers. What am I?",
+    "answer": "Fingernails",
+    "hint": "You might paint them or bite them",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["Rings", "Gloves"]
+  },
+  {
+    "id": 47,
+    "question": "I turn once, what is out will not get in. I turn again, what is in will not get out. What am I?",
+    "answer": "A key",
+    "hint": "You use it with a lock",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["A revolving door", "A lid"]
+  },
+  {
+    "id": 48,
+    "question": "What English word retains the same pronunciation even after you remove four of its five letters?",
+    "answer": "Queue",
+    "hint": "Think about waiting in line",
+    "category": "Wordplay",
+    "difficulty": "hard",
+    "wrongAnswers": ["Aisle", "Knight"]
+  },
+  {
+    "id": 49,
+    "question": "First you eat me, then you get eaten. What am I?",
+    "answer": "A fishhook",
+    "hint": "Think about bait",
+    "category": "Tricky",
+    "difficulty": "hard",
+    "wrongAnswers": ["An apple", "A seed"]
+  },
+  {
+    "id": 50,
+    "question": "What can run but never walks, has a mouth but never talks, has a head but never weeps, has a bed but never sleeps?",
+    "answer": "A river",
+    "hint": "It's a natural feature of the landscape",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["A road", "A volcano"]
+  },
+  {
+    "id": 51,
+    "question": "The person who makes it, sells it. The person who buys it never uses it. The person who uses it never knows they're using it. What is it?",
+    "answer": "A coffin",
+    "hint": "It's used after someone passes away",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["A tombstone", "Medicine"]
+  },
+  {
+    "id": 52,
+    "question": "What five-letter word becomes shorter when you add two letters to it?",
+    "answer": "Short",
+    "hint": "The answer is in the question",
+    "category": "Wordplay",
+    "difficulty": "hard",
+    "wrongAnswers": ["Small", "Brief"]
+  },
+  {
+    "id": 53,
+    "question": "I am bought by the yard but worn by the foot. What am I?",
+    "answer": "Carpet",
+    "hint": "I cover the floor",
+    "category": "Wordplay",
+    "difficulty": "hard",
+    "wrongAnswers": ["Fabric", "A rope"]
+  },
+  {
+    "id": 54,
+    "question": "What word is spelled incorrectly in every dictionary?",
+    "answer": "Incorrectly",
+    "hint": "Read the question very carefully",
+    "category": "Tricky",
+    "difficulty": "hard",
+    "wrongAnswers": ["Misspelled", "Wrong"]
+  },
+  {
+    "id": 55,
+    "question": "I have a spine but no bones. I have pages but no writing of my own. I hold stories but cannot speak. What am I?",
+    "answer": "A book",
+    "hint": "You'd find millions of me in a library",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["A newspaper", "A diary"]
+  },
+  {
+    "id": 56,
+    "question": "What belongs to you but other people use it more than you?",
+    "answer": "Your name",
+    "hint": "People call you by it",
+    "category": "Wordplay",
+    "difficulty": "hard",
+    "wrongAnswers": ["Your phone number", "Your doorbell"]
+  },
+  {
+    "id": 57,
+    "question": "What begins with an E and only contains one letter?",
+    "answer": "An envelope",
+    "hint": "You put something inside it to mail",
+    "category": "Wordplay",
+    "difficulty": "hard",
+    "wrongAnswers": ["An egg", "An eye"]
+  },
+  {
+    "id": 58,
+    "question": "I have hands that wave at you, though I never say goodbye. It's cool when I am with you, and yet I am full of hot air. What am I?",
+    "answer": "A fan",
+    "hint": "You turn me on when it's warm",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["An air conditioner", "A flag"]
+  },
+  {
+    "id": 59,
+    "question": "I have no voice but I answer when spoken to. I have no legs but I run away if not held. What am I?",
+    "answer": "A ball",
+    "hint": "Children play with me in the park",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["A wheel", "An echo"]
+  },
+  {
+    "id": 60,
+    "question": "I have a bed but never sleep. I have a bank but no money. I run but have no legs. What am I?",
+    "answer": "A river",
+    "hint": "I flow through the countryside",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["A road", "A stream"]
+  },
+  {
+    "id": 61,
+    "question": "What has four wheels and flies?",
+    "answer": "A garbage truck",
+    "hint": "Think about something smelly",
+    "category": "Wordplay",
+    "difficulty": "hard",
+    "wrongAnswers": ["An airplane", "A car"]
+  },
+  {
+    "id": 62,
+    "question": "I wear a crown but am no king. I have roots but do not grow in soil. I sit in your mouth. What am I?",
+    "answer": "A tooth",
+    "hint": "The dentist takes care of me",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["Your tongue", "A filling"]
+  },
+  {
+    "id": 63,
+    "question": "What occurs once in every minute, twice in every moment, yet never in a thousand years?",
+    "answer": "The letter M",
+    "hint": "It's about spelling, not time",
+    "category": "Wordplay",
+    "difficulty": "hard",
+    "wrongAnswers": ["A second", "A breath"]
+  },
+  {
+    "id": 64,
+    "question": "I have a heart that never beats, a home but I never sleep, I can take a man's house and build another. What am I?",
+    "answer": "A deck of cards",
+    "hint": "You use me to play games",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["A robot", "A dollhouse"]
+  },
+  {
+    "id": 65,
+    "question": "What word looks the same backwards and upside down?",
+    "answer": "SWIMS",
+    "hint": "It's something you do in a pool",
+    "category": "Wordplay",
+    "difficulty": "hard",
+    "wrongAnswers": ["NOON", "LEVEL"]
+  },
+  {
+    "id": 66,
+    "question": "I am an odd number. Take away a letter and I become even. What number am I?",
+    "answer": "Seven",
+    "hint": "Remove the 's' from the beginning",
+    "category": "Wordplay",
+    "difficulty": "hard",
+    "wrongAnswers": ["Eleven", "Nine"]
+  },
+  {
+    "id": 67,
+    "question": "What is 3/7 chicken, 2/3 cat, and 2/4 goat?",
+    "answer": "Chicago",
+    "hint": "Take those fractions of each word's letters",
+    "category": "Wordplay",
+    "difficulty": "hard",
+    "wrongAnswers": ["Cheetah", "Chariot"]
+  },
+  {
+    "id": 68,
+    "question": "I am weightless, but you can see me. Put me in a barrel, and I make it lighter. What am I?",
+    "answer": "A hole",
+    "hint": "I'm the absence of something",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["Air", "Light"]
+  },
+  {
+    "id": 69,
+    "question": "What do you throw out when you want to use it but take in when you don't want to use it?",
+    "answer": "An anchor",
+    "hint": "Think about boats",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["A fishing line", "A net"]
+  },
+  {
+    "id": 70,
+    "question": "Poor people have it. Rich people need it. If you eat it you die. What is it?",
+    "answer": "Nothing",
+    "hint": "Think about what poor people have that rich people want",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["Hunger", "Hope"]
+  },
+  {
+    "id": 71,
+    "question": "What gets broken without being held?",
+    "answer": "A promise",
+    "hint": "It's something you make, not something physical",
+    "category": "Wordplay",
+    "difficulty": "hard",
+    "wrongAnswers": ["Trust", "A heart"]
+  },
+  {
+    "id": 72,
+    "question": "I'm tall when I'm young and short when I'm old. What am I?",
+    "answer": "A candle",
+    "hint": "It melts over time",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["A tree", "A pencil"]
+  },
+  {
+    "id": 73,
+    "question": "I have no walls, no doors, no windows, yet inside me there is a golden treasure. What am I?",
+    "answer": "An egg",
+    "hint": "You might have me for breakfast",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["A coconut", "A treasure chest"]
+  },
+  {
+    "id": 74,
+    "question": "I start out tall but the longer I stand, the shorter I grow. What am I?",
+    "answer": "A pencil",
+    "hint": "You use me to write and draw",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["A shadow", "An ice sculpture"]
+  },
+  {
+    "id": 75,
+    "question": "I have a golden head, a golden tail, but no body. What am I?",
+    "answer": "A gold coin",
+    "hint": "You might find me in a treasure chest",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["A crown", "A trophy"]
+  },
+  {
+    "id": 76,
+    "question": "I am not a bird, but I can fly through the sky. I am not a river, but I carry passengers. What am I?",
+    "answer": "An airplane",
+    "hint": "I take off from a runway",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["A helicopter", "A rocket"]
+  },
+  {
+    "id": 77,
+    "question": "What has a ring but no finger?",
+    "answer": "A telephone",
+    "hint": "Ring ring!",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["Saturn", "A bell"]
+  },
+  {
+    "id": 78,
+    "question": "I have four legs in the morning, two legs at noon, and three legs in the evening. What am I?",
+    "answer": "A human",
+    "hint": "Think about the stages of life",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["A dog", "A chair"]
+  },
+  {
+    "id": 79,
+    "question": "I can be written, I can be spoken, I can be broken, I can be exposed. What am I?",
+    "answer": "A code",
+    "hint": "Spies and computers use me",
+    "category": "Wordplay",
+    "difficulty": "hard",
+    "wrongAnswers": ["A law", "A secret"]
+  },
+  {
+    "id": 80,
+    "question": "I drape the hills in white and howl through the night. I can sting your face yet leave no trace. What am I?",
+    "answer": "Wind",
+    "hint": "You can feel me but not see me",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["Snow", "Fog"]
+  },
+  {
+    "id": 81,
+    "question": "I have roots nobody sees, I am taller than trees, up and up I go, yet I never grow. What am I?",
+    "answer": "A mountain",
+    "hint": "Climbers try to reach my peak",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["A skyscraper", "A tower"]
+  },
+  {
+    "id": 82,
+    "question": "What is black when it's clean and white when it's dirty?",
+    "answer": "A chalkboard",
+    "hint": "Think about a classroom",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["A sheet", "A towel"]
+  },
+  {
+    "id": 83,
+    "question": "I am always arriving but never actually arrive. I am always coming but never here. What am I?",
+    "answer": "Tomorrow",
+    "hint": "When it gets here, it becomes something else",
+    "category": "Wordplay",
+    "difficulty": "hard",
+    "wrongAnswers": ["The future", "Next year"]
+  },
+  {
+    "id": 84,
+    "question": "I can bring tears to your eyes and resurrect the dead. I form in an instant but last a lifetime. What am I?",
+    "answer": "A memory",
+    "hint": "You store me in your mind",
+    "category": "Wordplay",
+    "difficulty": "hard",
+    "wrongAnswers": ["A photograph", "A dream"]
+  },
+  {
+    "id": 85,
+    "question": "What has a bottom at the top?",
+    "answer": "Your legs",
+    "hint": "Think about body parts",
+    "category": "Wordplay",
+    "difficulty": "hard",
+    "wrongAnswers": ["An hourglass", "A mountain"]
+  },
+  {
+    "id": 86,
+    "question": "What can you keep after giving to someone?",
+    "answer": "Your word",
+    "hint": "It's about honoring a commitment",
+    "category": "Wordplay",
+    "difficulty": "hard",
+    "wrongAnswers": ["A smile", "A photograph"]
+  },
+  {
+    "id": 87,
+    "question": "What coat is best put on wet?",
+    "answer": "A coat of paint",
+    "hint": "Think about home improvement",
+    "category": "Wordplay",
+    "difficulty": "hard",
+    "wrongAnswers": ["A raincoat", "A winter coat"]
+  },
+  {
+    "id": 88,
+    "question": "What kind of band never plays music?",
+    "answer": "A rubber band",
+    "hint": "It stretches",
+    "category": "Wordplay",
+    "difficulty": "hard",
+    "wrongAnswers": ["A headband", "A wedding band"]
+  },
+  {
+    "id": 89,
+    "question": "What has ears but cannot hear?",
+    "answer": "A cornfield",
+    "hint": "Think about a crop",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["A teddy bear", "A mountain"]
+  },
+  {
+    "id": 90,
+    "question": "What room do ghosts avoid?",
+    "answer": "The living room",
+    "hint": "Think about what ghosts are NOT",
+    "category": "Wordplay",
+    "difficulty": "hard",
+    "wrongAnswers": ["The bedroom", "The bathroom"]
+  },
+  {
+    "id": 91,
+    "question": "What kind of tree can you carry in your hand?",
+    "answer": "A palm",
+    "hint": "It's also a body part",
+    "category": "Wordplay",
+    "difficulty": "hard",
+    "wrongAnswers": ["A bonsai", "A twig"]
+  },
+  {
+    "id": 92,
+    "question": "I link two people yet I touch only one. What am I?",
+    "answer": "A wedding ring",
+    "hint": "You wear me on a special finger",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["A handshake", "A hug"]
+  },
+  {
+    "id": 93,
+    "question": "I sleep by day and fly by night. I have no feathers to aid my flight. What am I?",
+    "answer": "A bat",
+    "hint": "I hang upside down in caves",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["An owl", "A moth"]
+  },
+  {
+    "id": 94,
+    "question": "I have many keys but open no doors. I have space but no room. You can enter but cannot go inside. What am I?",
+    "answer": "A keyboard",
+    "hint": "You use me with a computer",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["A piano", "A calculator"]
+  },
+  {
+    "id": 95,
+    "question": "What has many needles but doesn't sew?",
+    "answer": "A Christmas tree",
+    "hint": "It's a type of evergreen",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["A cactus", "A porcupine"]
+  },
+  {
+    "id": 96,
+    "question": "What is easy to get into but hard to get out of?",
+    "answer": "Trouble",
+    "hint": "Think about consequences",
+    "category": "Wordplay",
+    "difficulty": "hard",
+    "wrongAnswers": ["A bed", "A maze"]
+  },
+  {
+    "id": 97,
+    "question": "What can go up a chimney down but can't go down a chimney up?",
+    "answer": "An umbrella",
+    "hint": "Think about the shape when open vs closed",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["Smoke", "Santa Claus"]
+  },
+  {
+    "id": 98,
+    "question": "Forward I am heavy, but backward I am not. What am I?",
+    "answer": "A ton",
+    "hint": "Spell it backwards",
+    "category": "Wordplay",
+    "difficulty": "hard",
+    "wrongAnswers": ["A car", "Time"]
+  },
+  {
+    "id": 99,
+    "question": "I can sizzle like bacon, I am made with an egg, I have plenty of backbone but lack a good leg. I peel layers like onions but still remain whole. What am I?",
+    "answer": "A snake",
+    "hint": "I slither on the ground",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["A worm", "A lizard"]
+  },
+  {
+    "id": 100,
+    "question": "What disappears the moment you start talking about it?",
+    "answer": "Silence",
+    "hint": "Think about what happens when you speak",
+    "category": "Classic",
+    "difficulty": "hard",
+    "wrongAnswers": ["A secret", "A thought"]
+  }
+]

@@ -1,0 +1,82 @@
+.form {
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.inputWrap {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.input {
+  flex: 1;
+  padding: 0.9rem 1rem;
+  border-radius: 12px;
+  border: 2px solid #c8e6c9;
+  background: #fff;
+  color: #1b5e20;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.2s;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.input:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.15);
+}
+
+.input.correct {
+  border-color: #43a047;
+  background: #e8f5e9;
+}
+
+.input.wrong {
+  border-color: #ef5350;
+  background: #ffebee;
+}
+
+.submitBtn {
+  padding: 0.9rem 1.2rem;
+  border-radius: 12px;
+  border: none;
+  background: linear-gradient(135deg, #43a047, #2e7d32);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 3px 10px rgba(46, 125, 50, 0.3);
+}
+
+.submitBtn:hover:not(:disabled) {
+  background: linear-gradient(135deg, #4caf50, #388e3c);
+  box-shadow: 0 5px 15px rgba(46, 125, 50, 0.35);
+}
+
+.submitBtn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.correctAnswer {
+  color: #c62828;
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.correctMsg {
+  color: #2e7d32;
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: 700;
+  padding: 0.4rem 1rem;
+  background: #e8f5e9;
+  border-radius: 8px;
+  border: 1px solid #a5d6a7;
+}

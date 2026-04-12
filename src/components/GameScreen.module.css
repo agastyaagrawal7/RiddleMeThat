@@ -1,0 +1,204 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  max-width: 600px;
+  margin: 0 auto;
+  min-height: calc(100vh - 80px);
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.backBtn {
+  background: #fff;
+  border: 1px solid #a5d6a7;
+  color: #2e7d32;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+.backBtn:hover {
+  border-color: #4caf50;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.15);
+}
+
+.levelInfo {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1b5e20;
+}
+
+.diffBadge {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  background: rgba(76, 175, 80, 0.12);
+  color: #2e7d32;
+  letter-spacing: 0.06em;
+  margin-left: 0.4rem;
+  font-weight: 600;
+}
+
+.scoreDisplay {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #2e7d32;
+}
+
+.riddleArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  width: 100%;
+  flex: 1;
+  justify-content: center;
+}
+
+/* Flip Card */
+.flipCard {
+  width: 100%;
+  height: 220px;
+  perspective: 1000px;
+}
+
+.flipCardInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-style: preserve-3d;
+}
+
+.flipped .flipCardInner {
+  transform: rotateY(180deg);
+}
+
+.flipCardFront,
+.flipCardBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 20px;
+  border: 2px solid #a5d6a7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.flipCardFront {
+  background: #fff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.flipCardBack {
+  background: linear-gradient(145deg, #e8f5e9, #c8e6c9);
+  border-color: #43a047;
+  transform: rotateY(180deg);
+  gap: 0.75rem;
+  box-shadow: 0 4px 20px rgba(67, 160, 71, 0.15);
+}
+
+.question {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1b5e20;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.answerLabel {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #7cb342;
+}
+
+.answerText {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2e7d32;
+  text-align: center;
+}
+
+.nextAfterFlip {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.2rem;
+  border-radius: 8px;
+  border: 1px solid #66bb6a;
+  background: rgba(255, 193, 7, 0.12);
+  color: #2e7d32;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.nextAfterFlip:hover {
+  background: rgba(255, 193, 7, 0.25);
+}
+
+/* Hint & Flip buttons */
+.hintRow {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.hintBtn {
+  background: #e8f5e9;
+  border: 1px solid #66bb6a;
+  color: #2e7d32;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.hintBtn:hover {
+  background: #c8e6c9;
+  box-shadow: 0 2px 8px rgba(255, 193, 7, 0.2);
+}
+
+.flipBtn {
+  background: #e8f5e9;
+  border: 1px solid #66bb6a;
+  color: #2e7d32;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.flipBtn:hover {
+  background: #c8e6c9;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.2);
+}
+
+.hint {
+  color: #2e7d32;
+  font-size: 0.9rem;
+  padding: 0.6rem 1rem;
+  background: #e8f5e9;
+  border-radius: 10px;
+  border: 1px solid #a5d6a7;
+}

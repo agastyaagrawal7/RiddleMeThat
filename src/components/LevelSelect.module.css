@@ -1,0 +1,116 @@
+.container {
+  padding: 2rem 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.heading {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #1b5e20;
+  margin-bottom: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.levelCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 1.3rem 0.8rem;
+  border-radius: 16px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.levelCard::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 14px;
+  opacity: 0;
+  background: radial-gradient(circle at 50% 0%, rgba(76, 175, 80, 0.1), transparent 70%);
+  transition: opacity 0.3s;
+}
+
+.unlocked {
+  border-color: #a5d6a7;
+}
+
+.unlocked:hover {
+  border-color: #4caf50;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(76, 175, 80, 0.2);
+}
+
+.unlocked:hover::before {
+  opacity: 1;
+}
+
+.locked {
+  opacity: 0.45;
+  cursor: not-allowed;
+  filter: grayscale(0.4);
+}
+
+.completed {
+  border-color: #43a047;
+  box-shadow: 0 2px 12px rgba(67, 160, 71, 0.2);
+}
+
+.lockIcon {
+  font-size: 1.3rem;
+  margin-bottom: 0.2rem;
+  opacity: 0.5;
+}
+
+.levelNum {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #1b5e20;
+}
+
+.difficulty {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #66bb6a;
+  font-weight: 600;
+}
+
+.mode {
+  font-size: 0.75rem;
+  color: #81c784;
+}
+
+.stars {
+  display: flex;
+  gap: 0.15rem;
+  font-size: 1.1rem;
+  margin-top: 0.2rem;
+}
+
+.starFilled {
+  color: #43a047;
+  filter: drop-shadow(0 0 3px rgba(67, 160, 71, 0.4));
+}
+
+.starEmpty {
+  color: #c8e6c9;
+}
+
+.scoreInfo {
+  font-size: 0.7rem;
+  color: #66bb6a;
+}
