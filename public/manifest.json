@@ -1,0 +1,26 @@
+{
+  "name": "RiddleMeThat",
+  "short_name": "RiddleMeThat",
+  "description": "A fun riddle game with 20 levels! Solve riddles, earn stars, and unlock new challenges.",
+  "start_url": "/RiddleMeThat/",
+  "scope": "/RiddleMeThat/",
+  "display": "standalone",
+  "background_color": "#e8f5e9",
+  "theme_color": "#2e7d32",
+  "orientation": "portrait",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    {
+      "src": "icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
